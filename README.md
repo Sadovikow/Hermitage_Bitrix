@@ -31,5 +31,5 @@
 Чтобы это заработало, блоку нужно передать id:
 
 ```html
-  <div id="<?=$comp->GetEditAreaId($sheetRow[ID])?>">Элемент, который выделится эрмитажем</div>
+  <div id="<?=$comp->GetEditAreaId($arItem[ID])?>">Элемент, который выделится эрмитажем</div>
 ```
